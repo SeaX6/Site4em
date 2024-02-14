@@ -1,0 +1,196 @@
+body {
+  background-color: #363636;
+  padding: 0;
+  margin: 0;
+
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main h1 {
+  color: #576CA8;
+  text-decoration: underline;
+}
+
+main a {
+  display: inline-block;
+  color: #576CA8;
+  text-decoration: none;
+  padding: 4px;
+  background-color: #CCA43B;
+  border-radius: 15px;
+}
+
+header ul {
+  background-color: #CCA43B;
+  margin: 0;
+  padding: 10px 0;
+}
+
+header ul li {
+  list-style-type: none;
+  font-size: 1.2em;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header a {
+  background-color: #576CA8;
+  display: inline-block;
+  color: #576CA8;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 15px;
+
+}
+
+h1 h2 h3 {
+  color: #576CA8;
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+div a {
+  display: inline-block;
+  color: #576CA8;
+  text-decoration: none;
+  padding: 4px;
+  border: 1px double white;
+  background-color: #CCA43B;
+  border-radius: 15px;
+  box-shadow: 3px 3px .4em #576CA8;
+}
+
+a:hover {
+  background-color: rgb(48, 221, 48);
+  transition-delay: 250ms;
+  animation-timing-function: ease-out;
+}
+
+
+p {
+  color: #E5E5E5;
+}
+
+table,
+th,
+td {
+  border: 1px solid #CCA43B;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px 20px;
+  text-align: center;
+  color: #576CA8;
+}
+
+table {
+  margin: auto;
+}
+
+li {
+  color: #576CA8;
+
+}
+
+ol {
+  text-align: center;
+  margin: 20px auto;
+  width: 200px;
+}
+
+.container {
+  border-color: #CCA43B;
+  border: 3px solid;
+  color: #CCA43B;
+  padding: 14px;
+  margin: 1% auto;
+  width: 45%;
+  text-align: center;
+}
+
+#pdp {
+  width: 15%;
+  margin: 20px auto;
+  background-color: transparent;
+  outline: 2px dashed;
+  transform: rotate(45deg);
+}
+
+.focus {
+  background: #CCA43B;
+  color: #576CA8;
+  margin-bottom: 20px;
+}
+
+.trans {
+  transform: scale(0.7)
+}
+footer {
+  background-color: #CCA43B;
+  margin: 0;
+  padding: 1px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer a {
+  color: white;
+  height: 100%;
+}
+
+img {
+  width: 40%;
+}
+
+label{
+  color: #CCA43B;
+}
+
+input:invalid {
+  background-color: #576CA8;
+}
+
+input:required {
+  border-color: black;
+  border-width: 3px;
+}
+
+input:required:invalid {
+  border-color: black;
+}
+
+input:invalid {
+  background-color: #ffdddd;
+}
+
+form:invalid {
+  border: 5px solid #ffdddd;
+}
+input:valid {
+  background-color: #2fa72f;
+}
+
+form:valid {
+  border: 5px solid #298829;
+}
+
+input:required {
+  border-color: #800000;
+  border-width: 3px;
+}
+
+input:required:invalid {
+  border-color: #c00000;
+}
